@@ -5,4 +5,16 @@ h1{
 body{
   font-family: 'Montserrat', sans-serif;
   background-color: #EDEDED;
-}z
+}
+
+hr{
+  border: dotted #c1c2b8 9px;
+  border-bottom: none;
+  width: 7.5vw;
+  margin: 50px auto;
+}
+
+.skills-image{
+  width: 33%;
+  margin-right: 2.5%;
+}
