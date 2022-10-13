@@ -19,13 +19,18 @@ p{
 }
 
 .skills-image{
+  width: 22.5%;
+  margin: 0 2.5%;
+}
+
+.skills-image-big{
   width: 37.5%;
   margin: 0 2.5%;
 }
 
 .learned-image{
   width: 45%;
-  margin: 0 2.5%;
+  margin: 4% 2.5%;
 }
 
 .learned-image-big{
