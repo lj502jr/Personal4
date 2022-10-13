@@ -12,7 +12,7 @@
 
   <body>
 
-    <div class="container-fluid p-4 text-center bg-dark text-white">
+    <div class="container-fluid p-4 text-center bg-dark text-white"><!-- black title bar -->
       <div class="justify-content-center">
         <div class="" id="title">
           <h1>John Barnes VI</h1>
@@ -21,24 +21,39 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-lg-6 col-sm-9 col-10 px-4 py-2 my-3 text-center mx-auto">
-        <h2 class="m-0">Hello</h2>
-        <img class="img-fluid d-block col-10 col-sm-6 p-2 my-3 rounded-5 mx-auto" src="./media/IMG_2905.JPG" alt="">
-        <p class="mx-auto col-10 col-sm-8">I am a software developer, web designer, and student of many philosophies that range across the entire philosophical canon.</p>
+    <div class="container"><!-- Hello, picture, and intro -->
+      <div class="row">
+        <div class="col-lg-6 col-sm-9 col-10 px-4 py-2 my-3 text-center mx-auto">
+          <h2 class="m-0">Hello</h2>
+          <img class="img-fluid d-block col-10 col-sm-6 p-2 my-3 rounded-5 mx-auto" src="./media/IMG_2905.JPG" alt="">
+          <p class="mx-auto col-10 col-sm-8">I am a software developer, web designer, and student of many philosophies that range across the entire philosophical canon.</p>
+        </div>
       </div>
     </div>
 
-    <div class="">
+    <div class=""><!-- horizonatal rule -->
       <hr>
     </div>
 
-    <div class="container">
+    <div class="container"><!-- What I do page -->
+      <h2 class="mt-3 text-center">What I Do</h2>
       <div class="row">
         <div class="col-lg-7 col-sm-9 col-12 py-2 my-3 mx-auto">
-          <h2 class="mt-3 text-center">My Skills</h2>
           <div class="container my-5">
-            <div class="row my-5">
+
+            <div class="row my-5">  <!-- Programming -->
+                <div class="col">
+                  <div class="container float-end skills-image">
+                    <img class="img-fluid d-block rounded-circle m-0 p-0 m-sm-1 p-sm-1" src="./media/htmlcssjs.jpeg" alt="">
+                  </div>
+                  <div class="container">
+                    <h3>Programming</h3>
+                    <p>I primarily do web development at the moment, having profeciency in HTML, CSS, Javascript and C++.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row my-5"><!-- Philosophy -->
               <div class="col">
                 <div class="container float-start skills-image">
                   <img class="img-fluid d-block rounded-circle m-1 p-1" src="./media/statue-of-socrates-0413221.jpeg" alt="">
@@ -46,20 +61,6 @@
                 <div class="container">
                   <h3>Philosophy</h3>
                   <p>I can speak on a multitude of philosophers: from Plato and Aristotle--all the way to Nietzsche contra Hegel--stopping along the way with the Enlightenment thinkers that inspired both our country's founders and so much more.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="container my-5">
-            <div class="row my-5">
-              <div class="col">
-                <div class="container float-end skills-image">
-                  <img class="img-fluid d-block rounded-circle m-0 p-0 m-sm-1 p-sm-1" src="./media/htmlcssjs.jpeg" alt="">
-                </div>
-                <div class="container">
-                  <h3>Programming</h3>
-                  <p>I primarily do web development at the moment, having profeciency in HTML, CSS, Javascript and C++.</p>
                 </div>
               </div>
             </div>
